@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  max-width: 960px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -35,6 +35,19 @@ h1, h2 {
 label {
   display: block;
   margin-bottom: 0.5em;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+}
+
+.grid-item {
+background-color: #fff7ec;
+text-align : left;
+padding: 10px;
+
 }
 
 .new-member-form {
