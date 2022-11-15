@@ -20,12 +20,10 @@
     <h2>Ajouter un(e) Argonaute</h2>
       <form method="post" class="new-member-form">
         {% csrf_token %}
-        <label for="name">Nom de l&apos;Argonaute</label>
-        <!-- <input id="name" name="name" type="text" placeholder="Charalampos" /> -->
-        
-          {{ form.as_table }}
-        
-        <button type="submit" class="save btn">Ajouter</button>
+        <div><label for="name">Nom de l&apos;Argonaute</label>
+        {{ form.as_table }}
+        </div>
+        <button type="submit" class="save btn">Ajouter le nouveau membre</button>
       </form>
     
     <!-- Member list -->
