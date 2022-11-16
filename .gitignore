@@ -1,52 +1,21 @@
 # Django #
-*.log
-*.pot
-*.pyc
-__pycache__
-db.sqlite3
-media
+#*.log
+#*.pot
+#*.pyc
+#__pycache__
+#db.sqlite3
+#media
 
 # Backup files # 
-*.bak 
+#*.bak 
 
 # Generated files
-.idea/**/contentModel.xml
-
-# Sensitive or high-churn files
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
-
-
-# File-based project format
-*.iws
+#.idea/**/contentModel.xml
 
 # Python # 
-*.py[cod] 
+
 *$py.class 
 
-# Distribution / packaging 
-.Python build/ 
-develop-eggs/ 
-dist/ 
-downloads/ 
-eggs/ 
-.eggs/ 
-lib/ 
-lib64/ 
-parts/ 
-sdist/ 
-var/ 
-wheels/ 
-*.egg-info/ 
-.installed.cfg 
-*.egg 
-*.manifest 
-*.spec 
 
 # Installer logs 
 pip-log.txt 
@@ -68,7 +37,7 @@ coverage.xml
 .ipynb_checkpoints 
 
 # pyenv 
-.python-version  
+#.python-version  
 
 # Environments 
 .venv 
@@ -77,7 +46,7 @@ coverage.xml
 /site 
 
 # mypy 
-.mypy_cache/ 
+#.mypy_cache/ 
 
 # sftp configuration file 
 sftp-config.json 
